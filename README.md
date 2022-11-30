@@ -1,7 +1,6 @@
 PROJECT UAS Pemrograman Berbasis Oriented (Object Oriented Programming)
 
-Anggota(){
-    FUAD
-    SALMAN
-    NANDA 
-}
+Anggota()
+-->FUAD
+-->SALMAN
+-->NANDA
