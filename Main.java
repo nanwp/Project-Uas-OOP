@@ -12,18 +12,19 @@ public class Main {
         Enemy enemy5 = new Hard("King Zombie", place2);
 
         Player player1 = new Player("Nanda", new Assasin());
-        Player player2 = new Player("Alfan", new Assasin());
+        Player player2 = new Player("Alfan", new Fighter());
         Player player3 = new Player("Tola", new Tank());
+
+
+        //player1.attack(enemy2);
+        player1.move(place2);
+        place2.info();
+        player1.move(place3);
+        place2.info();
+        place3.info();
+        //player1.attack(enemy3);
         
 
-        //player1.attack(enemy3);
-        //player1.attack(enemy3);
-        player1.move(place2);
-        //enemy1.attack(player1);
-        //player1.attack(enemy3);
-        player1.info();
-        enemy5.info();
-       
 
 
 
